@@ -20,19 +20,14 @@ Read more about Chainlink keepers [here](https://docs.chain.link/docs/chainlink-
    ```sh
    git clone https://github.com/jamaltheatlantean/community-we-fund.git
    ```
-   iii. Install NPM packages
-   ```sh
-   npm install
-   ```
+   iii. Install dependencies
+```sh
+npx save --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
+```
    iv. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
-   
-   ## HardHat Setup Install dependencies:
-```sh
-npx save --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
-```
    
 ### Deploy on rinkeby testnet
   ```
@@ -47,7 +42,8 @@ npx save --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
   iv. Pass the Captcha.                                                                                                                                     
   v. Click on send request and wait confirmation.                                                                                                           
   
-  Or you can test the functions on a IDE by copy, pasting, and compiling the code on [Remix](https://Remix.ethereum.org)
+  Or for quicker testing on an IDE copy, paste, and hit the compile on [Remix](https://Remix.ethereum.org)
+  
   
   Author - Jamal The Atlantean                                                                                                                           
   Reach me [On twitter](https://twitter.com/ThatAtlantean)                                                                                                   
