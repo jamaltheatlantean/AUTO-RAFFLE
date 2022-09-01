@@ -24,8 +24,8 @@ Read more about Chainlink keepers [here](https://docs.chain.link/docs/chainlink-
   iii. Install NPM packages
    ```sh
    npm install
-   ``
-   
+   ```
+                                                                                                                                                           
    iv. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
