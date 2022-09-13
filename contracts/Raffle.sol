@@ -137,11 +137,7 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
         // use the modulo function when youre trying to get the index 
         // of any address in a length
         uint256 indexOfWinner = randomWords[0] % s_players.length;
-        // after the modulo function calulates the winner
-        // I need to set the recentWinner address to payable
-        // so ETH can be sent to him
         address payable recentWinner = s_players[indexOfWinner];
-        // state that the storage variable is equal to the local variable
         s_recentWinner = recentWinner;
         // open back the raffle state to enable new entries once the
         // previous winner has been given his ETH
