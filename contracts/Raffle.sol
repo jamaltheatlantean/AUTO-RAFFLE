@@ -46,12 +46,10 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
     uint256 private s_lastTimeStamp;
     uint256 private immutable i_interval;
 
-
     /* Events */
     event RaffleEntered(address indexed player);
     event RequestedRaffleWinner(uint256 indexed requestId);
     event WinnerPicked(address indexed player);
-
 
     constructor(
         address vrfCoordinatorV2,
@@ -70,7 +68,7 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
         s_raffleState = RaffleState.OPEN;
         s_lastTimeStamp = block.timestamp;
     }
-
+    
     function enterRaffle() public payable {
         if(msg.value < i_entranceFee) { 
             revert Raffle__NotEnoughEth();
