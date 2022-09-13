@@ -130,17 +130,11 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
     function fulfillRandomWords(uint256 /*requestId*/ , 
     uint256[] memory randomWords
     ) internal override {
-        // this gives the index of the winner
-        // the modulo function basically divides the random number
-        // gotten by the amount of people in the array
-        // and returns the remainder as the winner
-        // use the modulo function when youre trying to get the index 
-        // of any address in a length
         uint256 indexOfWinner = randomWords[0] % s_players.length;
         address payable recentWinner = s_players[indexOfWinner];
         s_recentWinner = recentWinner;
         // open back the raffle state to enable new entries once the
-        // previous winner has been given his ETH
+        // previous winner has been given their ETH
         s_raffleState = RaffleState.OPEN;
         // reset the players address array
         s_players = new address payable[](0);
