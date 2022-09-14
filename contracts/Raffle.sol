@@ -12,7 +12,6 @@ error Raffle__NotOpen();
 error Raffle__UpKeepNotNeeded(
     uint256 currentBalance,
     uint256 numPlayers,
-    // makes sure raffle is open
     uint256 raffleState
 );
                 
