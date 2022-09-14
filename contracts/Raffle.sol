@@ -97,7 +97,6 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
         bool timePassed = ((block.timestamp - s_lastTimeStamp) > i_interval);
         bool hasPlayers = (s_players.length > 0);
         bool hasBalance = address(this).balance > 0;
-        // declare bools for the upkeepNeeded
         upkeepNeeded = (isOpen && timePassed && hasPlayers && hasBalance);
 
     }
@@ -151,8 +150,7 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
     }
 
     function getPlayer(uint256 index) public view returns(address) {
-        return s_players[index];
-        
+        return s_players[index];  
     }
 
     function getRecentWinner() public view returns (address) {
