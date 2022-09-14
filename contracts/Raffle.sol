@@ -106,7 +106,6 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
             revert Raffle__UpKeepNotNeeded(
                 address(this).balance,
                 s_players.length,
-                // makes sure raffle is open
                 uint256 (s_raffleState)
                 );
         }
