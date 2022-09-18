@@ -68,7 +68,6 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     log("Consumer added!")
 }
   
-
   // Verify the deployment
   if (!developmentChains.includes(network.name) && process.env.ETHERSCAN_API_KEY) {
       log("Verifying...")
@@ -82,4 +81,3 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
 };
 
 module.exports.tags = ["all", "raffle"];
-
