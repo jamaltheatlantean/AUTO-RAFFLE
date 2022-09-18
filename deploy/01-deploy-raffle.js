@@ -68,7 +68,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     log("Consumer added!")
 }
   
-  // Verify the 
+  // Verify 
   if (!developmentChains.includes(network.name) && process.env.ETHERSCAN_API_KEY) {
       log("Verifying...")
        await verify(raffle.address, arguments)
