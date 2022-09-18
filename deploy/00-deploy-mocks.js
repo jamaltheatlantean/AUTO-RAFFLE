@@ -1,7 +1,7 @@
 const { getNamedAccounts, deployments, network, ethers } = require("hardhat")
 const { developmentChains, networkConfig } = require("../helper-hardhat-config")
 
-const BASE_FEE = "250000000000000000" //
+const BASE_FEE = "250000000000000000"
 const GAS_PRICE_LINK = 1e9 // 0.000000001 LINK per gas
 
 module.exports = async ({ getNamedAccounts, deployments }) => {
