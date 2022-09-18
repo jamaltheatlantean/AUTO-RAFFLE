@@ -73,7 +73,6 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
       log("Verifying...")
        await verify(raffle.address, arguments)
    }
-
    log("Enter lottery with command:")
    const networkName = network.name == "hardhat" ? "localhost" : network.name
    log(`npx hardhat run scripts/enterRaffle.js --network ${networkName}`)
