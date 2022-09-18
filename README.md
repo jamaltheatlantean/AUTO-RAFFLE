@@ -4,6 +4,7 @@ Once players enter the lottery, all they have to do is wait while a Chainlink ke
                                                                                                                                                             
 The keeper is a decentralized transaction automation solution that enables smart contracts to automate key functions and DevOps tasks in a highly reliable, trust-minimized, and cost-efficient manner.                                                                                                                     
 Once a winner is selected the keeper fires the event that gets the winner address paid automatically, without the need of a manual operator.                 
+
 Read more about Chainlink keepers [here](https://docs.chain.link/docs/chainlink-keepers/introduction)
 
 ## Getting Started
