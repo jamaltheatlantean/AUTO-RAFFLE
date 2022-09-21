@@ -24,7 +24,7 @@ module.exports = {
             url: GOERLI_RPC_URL,
             accounts: [PRIVATE_KEY],
             saveDeployments: true,
-            chainId: 4,
+            chainId: 5,
         },
     },
     contractSizer: {
