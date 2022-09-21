@@ -1,12 +1,12 @@
 {
-  "name": "hardhat-raffle",
-  "author": "",
+  "name": "AUTO-RAFFLE",
+  "author": "Jamal The Atlantean",
   "version": "1.0.0",
-  "description": "A contract for community funding and loans",
+  "description": "An automatic raffle",
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 10000000",
-    "test:staging": "npx hardhat test --network rinkeby",
+    "test:staging": "npx hardhat test --network goerli",
     "lint": "npx solhint 'contracts/*sol'",
     "lint:fix": "npx solhint 'contracts/*sol' --fix",
     "format": "npx prettier --write .",
