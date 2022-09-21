@@ -20,7 +20,7 @@ module.exports = {
         localhost: {
             chainId: 31337,
         },
-        rinkeby: {
+        goerli: {
             url: RINKEBY_RPC_URL,
             accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
             saveDeployments: true,
