@@ -18,7 +18,7 @@ const networkConfig = {
       interval: "30",
       entranceFee: "100000000000000000", // 0.1 ETH
       callbackGasLimit: "500000", // 500,000 gas
-      vrfCoordinatorV2: "0x6168499c0cFfCaCD319c818142124B7A15E857ab",
+      vrfCoordinatorV2: "",
   },
 }
 
