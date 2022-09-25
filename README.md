@@ -6,6 +6,7 @@ The keeper is a decentralized transaction automation solution that enables smart
 Once a winner is selected the keeper fires the event that gets the winner address paid automatically, without the need of a manual operator.                 
 
 Read more about Chainlink keepers [here](https://docs.chain.link/docs/chainlink-keepers/introduction)
+                                                     
 
 ## Getting Started
 ### Prerequisites
