@@ -1,7 +1,7 @@
 ## A DEMO RAFFLE CONTRACT
 Using Chainlink keepers this raffle contracts automatically picks a winner and transfers the bounty to the winners wallet.
 Once players enter the lottery, all they have to do is wait while a Chainlink keeper listens for events in the contract and the decentralized VRF selects one of the addresses and declares it the winner. The Chainlink VRF function is tamper proof and cryptographically ensures randomness, this blocks all sorts of manipulation from competitors and the raffle organizers. Read more about Chainlinks' *Verifiable Random Function* [here](https://chain.link/vrf).
-                                                                                                                                                              
+                                                                                                                                                               
 The keeper is a decentralized transaction automation solution that enables smart contracts to automate key functions and DevOps tasks in a highly reliable, trust-minimized, and cost-efficient manner.                                                                                                                     
 Once a winner is selected the keeper fires the event that gets the winner address paid automatically, without the need of a manual operator.                  
 
