@@ -54,6 +54,8 @@ npx save --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
   
   Or for quicker testing on an IDE copy, paste, and hit the compile on [Remix](https://Remix.ethereum.org)
   
+  ## ACKNOWLEDGEMENTS
+  Big thanks to PatrickCAlpha for his guidance.
   
   Author - Jamal The Atlantean                                                                                                                           
   Reach me [On twitter](https://twitter.com/ThatAtlantean)                                                                                                   
