@@ -59,6 +59,6 @@ npx save --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
   
   Author - Jamal The Atlantean                                                                                                                           
   Reach me [On twitter](https://twitter.com/ThatAtlantean)                                                                                                   
-  [Mail](jamaltheatlantean@gmail.com)
+  [Mail](https://gmail.com/jamaltheatlantean)
 
   Project Link: https://github.com/jamaltheatlantean/AUTO-RAFFLE
