@@ -57,7 +57,7 @@ npx save --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
   ## ACKNOWLEDGEMENTS
   Big thanks to PatrickCAlpha for his guidance.
   
-  Author - Jamal The Atlantean                                                                                                                           
+  Author - JamalTheAtlantean                                                                                                                           
   Reach me [On twitter](https://twitter.com/ThatAtlantean)                                                                                                   
   [Mail](https://gmail.com/jamaltheatlantean)
 
