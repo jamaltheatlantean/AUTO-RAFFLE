@@ -48,7 +48,7 @@ npx save --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
   
   Go to [goerli](https://goerlifaucet.com/)                                                                                                               
 
-  Or for quicker testing on an IDE copy, paste, and hit the compile on [Remix](https://Remix.ethereum.org)
+  Or for quicker interaction on an IDE copy, paste, and hit the compile on [Remix](https://Remix.ethereum.org)
   
   ## ACKNOWLEDGEMENTS
   Big thanks to PatrickCAlpha for his guidance.
