@@ -44,7 +44,7 @@ npx save --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
   npx hardhat deploy --network rinkeby
   ```
   
-  You can get some rinkeby faucet by following steps:
+  You can get some goerli faucet by following steps:
   
   i. Go to https://faucets.chain.link/rinkeby                                                                                                               
   ii. Connect your wallet                                                                                                                                   
