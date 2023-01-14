@@ -41,7 +41,7 @@ npx save --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
    
 ### Deploy on rinkeby testnet
   ```
-  npx hardhat deploy --network rinkeby
+  npx hardhat deploy --network goerli
   ```
   
   You can get some goerli faucet by following steps:
