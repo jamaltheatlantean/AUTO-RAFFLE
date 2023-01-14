@@ -46,12 +46,8 @@ npx save --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
   
   You can get some goerli faucet by following steps:
   
-  i. Go to https://faucets.chain.link/rinkeby                                                                                                               
-  ii. Connect your wallet                                                                                                                                   
-  iii. Copy and Paste your address.                                                                                                                         
-  iv. Pass the Captcha.                                                                                                                                     
-  v. Click on send request and wait confirmation.                                                                                                           
-  
+  Go to [goerli](https://goerlifaucet.com/)                                                                                                               
+
   Or for quicker testing on an IDE copy, paste, and hit the compile on [Remix](https://Remix.ethereum.org)
   
   ## ACKNOWLEDGEMENTS
